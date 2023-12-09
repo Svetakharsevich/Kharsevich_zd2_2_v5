@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Komfort</string>
+    <string name="email">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="writePas">Ваш пароль</string>
+    <string name="log">Войти</string>
+    <string name="app">Комфортное путешествие</string>
+    <string name="email_hint">you@example.com</string>
+    <string name="speak">Карта</string>
+    <string name="speak_2">Статистика</string>
+    <string name="search">Введите город</string>
+    <string name="sity">Город:</string>
+    <string name="info">Достопримечательности:</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_search_map">Search_map</string>
+    <string name="title_activity_static_search">Static_search</string>
+    <string name="title_activity_list_screen">List_screen</string>
+</resources>

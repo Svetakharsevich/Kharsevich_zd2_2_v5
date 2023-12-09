@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".List_screen"
+    tools:deviceIds="wear"
+    android:theme="@style/Theme.AppCompat"
+    android:background="@color/back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@color/text"
+            android:onClick="ButCleaAll"
+            android:text="очистить"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/AddButton"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@color/text"
+            android:onClick="AddNewButton"
+            android:text="добавить"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</androidx.wear.widget.BoxInsetLayout>
